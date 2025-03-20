@@ -17,6 +17,7 @@ export const defaultStoreProductFields = [
   "origin_country",
   "mid_code",
   "material",
+  "brand",
   "created_at",
   "updated_at",
   "*type",

@@ -132,6 +132,8 @@ export interface BaseProduct {
    * Key-value pairs of custom data.
    */
   metadata?: Record<string, unknown> | null
+
+  brand: string | null
 }
 
 export interface BaseProductVariant {

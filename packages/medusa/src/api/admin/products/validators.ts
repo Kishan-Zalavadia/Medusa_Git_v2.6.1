@@ -242,6 +242,7 @@ export const CreateProduct = z
     origin_country: z.string().nullish(),
     material: z.string().nullish(),
     metadata: z.record(z.unknown()).nullish(),
+    brand: z.string().nullish()
   })
   .strict()
 
@@ -277,6 +278,7 @@ export const UpdateProduct = z
     origin_country: z.string().nullish(),
     material: z.string().nullish(),
     metadata: z.record(z.unknown()).nullish(),
+    brand: z.string().nullish()
   })
   .strict()
 

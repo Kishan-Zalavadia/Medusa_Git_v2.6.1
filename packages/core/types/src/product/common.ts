@@ -152,6 +152,10 @@ export interface ProductDTO {
    * Holds custom data in key-value pairs.
    */
   metadata?: MetadataType
+  /**
+   * brand value
+   */
+  brand: string | null
 }
 
 /**
@@ -685,6 +689,10 @@ export interface FilterableProductProps
    * Search through the products' attributes, such as titles and descriptions, using this search term.
    */
   q?: string
+  /**
+   * The brands to filter product
+   */
+  brand?: string | string[]
   /**
    * The status to filter products by
    */
@@ -1460,6 +1468,10 @@ export interface CreateProductDTO {
    */
   title: string
   /**
+   * The brand of the product
+   */
+  brand?: string
+  /**
    * The subttle of the product.
    */
   subtitle?: string
@@ -1580,8 +1592,12 @@ export interface UpdateProductDTO {
    */
   title?: string
   /**
-   * The subttle of the product.
+   * The brand of the product.
    */
+  brand?: string | null
+  /**
+   * The subttle of the product.
+   */ 
   subtitle?: string | null
   /**
    * The description of the product.
