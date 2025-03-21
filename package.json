@@ -76,7 +76,8 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.0",
     "global": "^4.4.0",
-    "import-from": "^3.0.0"
+    "import-from": "^3.0.0",
+    "yalc": "^1.0.0-pre.53"
   },
   "packageManager": "yarn@3.2.1",
   "resolutions": {

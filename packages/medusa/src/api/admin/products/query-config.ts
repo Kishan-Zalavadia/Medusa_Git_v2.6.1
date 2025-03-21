@@ -72,6 +72,7 @@ export const defaultAdminProductFields = [
   "origin_country",
   "mid_code",
   "material",
+  "brand",
   "created_at",
   "updated_at",
   "deleted_at",
